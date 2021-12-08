@@ -100,7 +100,9 @@ You must implement the following routes:
 
 `products.php`: Delete a product (NOT IN THE FRONT)
 - Method: **DELETE**
-- Body parameter: `id`
+- Body parameter: `id`   
+
+To filter your product, you have to **$_GET["category"]** and make a condition in your bdd querry with the result
 
 Here are all the requirements to complete the project.
 
